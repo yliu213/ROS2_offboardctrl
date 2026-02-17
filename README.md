@@ -1,14 +1,21 @@
 # ROS2_offboardctrl
-A example of offboard control of PX4 ROS2 SITL. Modified from offboard control from [px4_ros_com. ](https://github.com/PX4/px4_ros_com/blob/main/src/examples/offboard/offboard_control.cpp)
 
-## Install/Getting Started  
-### 1. Prerequisties:
-Assume you have already installed the following:
-WSL
-PX4 v1.15.4 with gazebo classic
-ROS2
-Micro-DDS Agent
-QGC
+A ROS 2 offboard control example for PX4 SITL.  
+This project is adapted from the PX4 offboard control example in [`px4_ros_com`](https://github.com/PX4/px4_ros_com/blob/main/src/examples/offboard/offboard_control.cpp).
+
+## Install / Getting Started
+
+### 1. Prerequisites
+
+Make sure the following are already installed:
+
+- WSL
+- PX4 Autopilot v1.15.4
+- Gazebo Classic
+- ROS 2
+- Micro XRCE-DDS Agent (Micro-DDS Agent)
+- QGroundControl (QGC)
+
 
 ### 2. Install the project
 Assume you don't have a workspace:
