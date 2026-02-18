@@ -58,7 +58,7 @@ Add the following inside <world> block:
 </plugin>
 ```
 
-## Run SLS SITL
+## Run SITL
 ### 1. Launch SITL environment
 In a new terminal:
 ```
