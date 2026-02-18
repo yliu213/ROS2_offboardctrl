@@ -44,7 +44,7 @@ export GAZEBO_PLUGIN_PATH=~/PX4-Autopilot/build/px4_sitl_default/build_gazebo-cl
 export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:/home/<user>/ros2_ws/src/setup/models
 ```
 
-### 4. Modify empty.world
+### 4. Modify empty.world (if using Gazebo Classic)
 ```
 code ~/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/empty.world
 ```
