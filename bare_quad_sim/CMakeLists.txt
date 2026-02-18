@@ -17,7 +17,8 @@ find_package(tf2 REQUIRED)
 
 # add executables
 add_executable(single_quad 
-  src/offboard_control_modified.cpp
+  src/offboard_control.cpp
+  #src/offboard_control_modified.cpp # modified template
 )
 
 ament_target_dependencies(single_quad 
