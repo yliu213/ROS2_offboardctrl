@@ -11,7 +11,7 @@ Make sure the following are already installed:
 
 - WSL
 - PX4 Autopilot v1.15.4
-- Gazebo Classic
+- Gazebo 
 - ROS 2
 - Micro XRCE-DDS Agent (Micro-DDS Agent)
 - QGroundControl (QGC)
