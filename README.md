@@ -73,3 +73,10 @@ In a new terminal:
 ```
 ros2 launch bare_quad_sim ctrnode.launch.py
 ```
+
+## Issues
+### 1. launch script error (init.launch.py)
+Load the parameter file ``param_SITL_664project`` in QGC. After loading is complete, restart both QGC. If the initial load fails, please attempt to load the file multiple times. 
+
+### 2. CSV logging 
+Please refer to ``offboard_control_csv.cpp``, which demonstrates how to recode data into CSV files within a ROS 2 node.
